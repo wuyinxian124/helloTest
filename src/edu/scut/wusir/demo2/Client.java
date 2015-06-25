@@ -10,6 +10,8 @@ public class Client {
         h3.setSuccessor(h2);
         h2.setSuccessor(h1);
         
+        
+        
         //开始测试
         String test1 = h3.handleFeeRequest("张三", 300);
         System.out.println("test1 = " + test1);
