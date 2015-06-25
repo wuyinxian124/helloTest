@@ -3,12 +3,14 @@ package edu.scut.wusir.demo1;
 public class Client {
 
     public static void main(String[] args) {
-        //×é×°ÔðÈÎÁ´
+        //ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         Handler handler1 = new ConcreteHandler();
         Handler handler2 = new ConcreteHandler();
         handler1.setSuccessor(handler2);
-        //Ìá½»ÇëÇó
+        //ï¿½á½»ï¿½ï¿½ï¿½ï¿½
         handler1.handleRequest();
     }
 
+    
+    
 }
