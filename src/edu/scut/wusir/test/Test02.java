@@ -6,8 +6,9 @@ package edu.scut.wusir.test;
  **/
 public class Test02 {
 
+	private static int lala = 0;
 	public void test1(){
-		new Test001().test();
-		new Test0010();
+
+		System.out.println(lala++);
 	}
 }
